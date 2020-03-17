@@ -2,7 +2,7 @@
   "name": "ittyni-app",
   "version": "1.0.0",
   "description": "ittyni api created with mongodb express nodejs and GraphQL",
-  "main": "index.js",
+  "main": "build/index.js",
   "types": "index.d.ts",
   "scripts": {
     "tsc": "tsc",

@@ -2,8 +2,7 @@ import express from "express";
 import routes from './routes';
 import bodyParser from "body-parser";
 import mongoose from "mongoose";
-
-const uri = " your db her ";
+import { uri } from "./config"
 
 mongoose.connect(uri, { useNewUrlParser: true, useUnifiedTopology: true, useFindAndModify: false })
     .then(() => { console.log('MongoDB connected...') })

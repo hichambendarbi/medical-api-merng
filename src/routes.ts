@@ -1,6 +1,6 @@
 import express from "express";
 import * as HandlerUser from './user-medical-api/index'
-import * as HandlerLab from './lab-ittyni-api/src'
+import * as HandlerLab from './lab-medical-api/index'
 
 
 
