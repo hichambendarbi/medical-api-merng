@@ -1,0 +1,12 @@
+[submodule "code-ittyni-api"]
+	path = src/code-ittyni-api
+	url = https://github.com/Mkhmalech/code-ittyni-api.git
+[submodule "src/db-ittyni-api"]
+	path = src/db-ittyni-api
+	url = https://github.com/Mkhmalech/db-ittyni-api.git
+[submodule "src/lab-medical-api"]
+	path = src/lab-medical-api
+	url = https://github.com/Mkhmalech/lab-medical-api.git
+[submodule "src/user-medical-api"]
+	path = src/user-medical-api
+	url = https://github.com/Mkhmalech/user-medical-api.git
