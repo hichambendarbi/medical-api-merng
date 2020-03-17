@@ -1,0 +1,6 @@
+build
+node_modules
+src/core-ityyni-app/.git
+src/core-ityyni-app/node_modules
+src/user-medical-app/.git
+src/user-medical-app/node_modules
