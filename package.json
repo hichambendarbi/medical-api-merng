@@ -7,8 +7,8 @@
   "scripts": {
     "tsc": "tsc",
     "clean": "rm -rf build",
-    "build": "npm run clean && tsc && node build/server.js",
-    "start": "npm run clean && tsc && pm2 start --name api node build/server.js",
+    "start": "npm run clean && tsc && node build/server.js",
+    "start:server": "npm run clean && tsc && pm2 start --name api node build/server.js",
     "DEV": "nodemon -e ts -w ./src -x npm run watch:serve",
     "watch:serve": "npm run clean && tsc && node build/server.js",
     "start:PROD": "npm run clean && tsc && cross-env NODE_ENV=production nodemon build/server.js"
