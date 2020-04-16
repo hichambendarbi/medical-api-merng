@@ -12,7 +12,7 @@ interface expressExchange {
 
 const routes = ($: express.Router) => {
 
-    $.get("/", (
+    $.get("/api", (
         req : express.Request,
         res : express.Response,
         next : express.NextFunction)=>
@@ -20,13 +20,15 @@ const routes = ($: express.Router) => {
         res.send('<bold> Hello World </b>')
     });
 
-    $.all('/tests', HandlerLab.LabTests)
+    $.all('/api/tests', HandlerLab.LabTests)
 
-    $.all('/users', HandlerUser.User);
+    $.all('/api/users', HandlerUser.User);
 
     // $.all('/search', HandlerSearch.Search)
 
-    $.all('/labos', HandlerLab.Labo)
+    $.all('/api/labos/staff', HandlerLab.Staff);
+
+    $.all('/api/labos', HandlerLab.Labo);
 
     return $;
 }
